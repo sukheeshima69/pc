@@ -1,3 +1,13 @@
 # Build folder and log file
 build/
 build.log
+# Ignore everything
+*
+
+# But keep the .gitignore itself
+!.gitignore
+
+# Keep a specific folder
+!src/
+!src/**
+a2z/
